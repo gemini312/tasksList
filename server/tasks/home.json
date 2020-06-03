@@ -1,0 +1,18 @@
+[
+  {
+    "taskId": "YmvlDEu8-",
+    "title": "Drink tea",
+    "status": "done",
+    "_isDeleted": true,
+    "_createdAt": 1591104713637,
+    "_deletedAt": 1591104740387
+  },
+  {
+    "taskId": "kLZ5Cbism",
+    "title": "Go sleep",
+    "status": "new",
+    "_isDeleted": false,
+    "_createdAt": 1591104722340,
+    "_deletedAt": null
+  }
+]

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 375px) {
+  .boox {
+    width: 350px;
+  }
+
+}
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+body{
+  background-image: url("https://i.ibb.co/HhgPpZL/silhouette-of-mountains-1323550.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.inputClass{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.head{
+  margin: 0 auto;
+  position: absolute;
+  right: 35px;
+  top: -45px;
+}
+.days{
+  margin-bottom: 16px;
+  margin-top: 7px;
+}
+.titlee{
+  position: absolute;
+  left: 294px;
+  bottom: 48px;
+}
+.boox{
+  opacity: 0.8;
+  border-radius: 5%;
+  border: 1px solid #e8d363;
+  background-size: cover;
+  background-image: url("https://i.ibb.co/FxLswFC/filtered-mountains-2088208.jpg");
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  width: 850px;
+  justify-content: center;
+  min-height: 500px;
+  height: auto;
+}
+
+.btnClass{
+  background-color: #e8bfc3;
+  //0e2456
+}
+.categoryView{
+  width: 100%;
+  height: 500px;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.taskItem{
+  display: flex;
+}
+//https://i.ibb.co/VwvH96Z/background-bloom-blooming-blossom-459335.jpg
+
+.reverse{
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+.reverse > li {
+    -moz-transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
